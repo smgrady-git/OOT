@@ -1,0 +1,240 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>Social Media Ostracism Paradigm by smpo</title>
+
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="pygment_trac.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1>Social Media Ostracism Paradigm</h1>
+        <p>A web-based experimental manipulation of ostracism and social exclusion, designed for research purposes.</p>
+        <p class="view"><a style="color:rgb(8, 111, 229); font-weight:bold; font-size:18px;"href="https://github.com/smgrady-git/socialmedia">View the Project on GitHub <small>smgrady-git/socialmedia</small></a></p>
+        <ul>
+          <li><a href="https://github.com/smgrady-git/socialmedia.git">Clone <strong>GitHub</strong></a></li>
+          <li><a href="https://github.com/smgrady-git/socialmedia/archive/refs/heads/main.zip">Download <strong>ZIP File</strong></a></li>
+          <li><a href="https://github.com/smgrady-git/socialmedia">View On <strong>GitHub</strong></a></li>
+        </ul>
+
+        <h2>Customize Code Generator</h2>
+        <div class="slider-container">
+          <div class="slider-row">
+          <div class="slider">
+            <p>Link</p>
+            <input type="text" id="textInput" placeholder="Add Your Link" class="text-input">
+          </div>
+          <div class="slider">
+            <p>Avatars</p>
+            <input type="range" min="1" max="82" value="82" class="slider-input" id="slider1">
+            <span style="color:rgb(0, 0, 0); font-weight:bold; font-size:18px;" class="slider-value" id="slider1-value">82</span>
+          </div>
+          <div class="slider">
+            <p>Time</p>
+            <input type="range" min="1" max="10" value="3" class="slider-input" id="slider2">
+            <span style="color:rgb(0, 0, 0); font-weight:bold; font-size:18px;" class="slider-value" id="slider2-value">3</span>
+          </div>
+          <div class="slider">
+            <p>Add A Condition Likes/Dislikes</p>
+            <input type="text" id="textInput2" placeholder="#Likes" class="text-input2">
+            <input type="text" id="textInput3" placeholder="#Dislikes" class="text-input2">
+          </div>
+          <div>
+            <button class="button-35" id="create-btn2">Add Condition</button>
+            <button class="button-35" id="create-btn3">View Condition</button>
+            <div id="popup2" class="popup">
+              <div class="popup-content2">
+                <span class="close-button">&times;</span>
+                <h2>Select From Original Conditions</h2>
+                <div class="options">
+                  <div><input type="checkbox" id="option1" name="options" value="9,0">
+                    <label for="option1">[9 Likes-0 Dislikes]</label>
+                  </div>
+                  <div>
+                  <input type="checkbox" id="option2" name="options" value="6,0">
+                  <label for="option2">[6 Likes-0 Dislikes]</label>
+                  </div>
+                  <div>
+                  <input type="checkbox" id="option3" name="options" value="3,3">
+                  <label for="option3">[3 Likes-3 Dislikes]</label>
+                  </div>
+                  <div>
+                  <input type="checkbox" id="option4" name="options" value="0,6">
+                  <label for="option4">[0 Likes-6 Dislikes]</label>
+                </div>
+                </div>
+                <br></br> 
+                <h2>Select From Added Options</h2>
+                <div class="custom-options"></div>
+                <br></br>
+                <button class="button-35" id="submit-button">Submit</button>
+              </div>
+            </div>
+          </div>
+          <button class="button-35" id="create-btn">Create</button>
+         </div>
+        </div>
+        
+        <div id="popup" class="popup">
+          <div class="popup-content">
+            <span class="close-btn">&times;</span>
+            <p style="font-size: large;">Delete All Code From Line (1 - 31) || Copy & Paste The Code Below above (line 32) In Your File </p>
+            <p style="font-size: large;">New Code: <button class="button-35" id="copy-btn">Copy Code</button></p>
+            <ul id="selected-values"></ul>
+          </div>
+        </div>
+      </header>
+      <section>
+        <h2>
+<a name="welcome" class="anchor" href="#welcome"><span class="octicon octicon-link"></span></a>Welcome</h2>
+
+<p>The Social Media Ostracism paradigm is a web-based experimental manipulation of ostracism and social exclusion, designed for research purposes. </p>
+
+<p class="p2"><img src="Mainpage2.png" alt="preview"></p2>
+
+<p>On this page you can find:</p>
+
+<ul>
+<li style="font-size: medium; font-weight: bold;">Preview of the paradigm (online version)</li>
+<li style="font-size: medium; font-weight: bold;">How to use the code generator</li>
+<li style="font-size: medium; font-weight: bold;">How to download &amp; customize the study </li>
+<li style="font-size: medium; font-weight: bold;">How to install and run the downloaded versions on a personal computer</li>
+<li style="font-size: medium; font-weight: bold;">Suggestions on how to run the customized study online</li>
+</ul>
+<h2>
+<a name="try-it-out" class="anchor" href="#try-it-out"><span class="octicon octicon-link"></span></a>Try it out</h2>
+
+<p>To try out the Social Media Ostracism paradigm follow one of these links:</p>
+
+<ul>
+<li><a href="http://smpo.github.io/preview/index.html?c=1&amp;p=999" style="color:rgb(8, 111, 229); font-weight:bold; font-size:18px;">Try out random condition</a></li>
+</ul><h2>
+<a name="more-about-the-paradigm" class="anchor" href="#more-about-the-paradigm"><span class="octicon octicon-link"></span></a>More about the paradigm</h2>
+
+<p>Social media ostracism is a type of social exclusion which happens via social media websites, such as Facebook, Twitter, blogging platforms, or forums. In the paradigm, feelings of exclusion are conveyed through the number of "likes" that people receive on their personal profiles during a group intro task.</p>
+
+<p>We recommend that you end the paradigm with an online survey, which contains manipulation checks, dependent measures, and/or connection to subsequent tasks. If the entire study is conducted online and with no interruptions, the participants will be more likely to think that they are interacting with other participants (rather than computer scripts). </p>
+
+
+<h2>
+<a name="use-it-in-an-experiment" class="anchor" href="#use-it-in-an-experiment"><span class="octicon octicon-link"></span></a>How to use Code Generator</h2>
+
+<p>Link Section</p>
+<p>This is where you enter your Qualtrics Redirect Link</p>
+<pre lang="markdown">EX:https://osu.az1.qualtrics.com/jfe/form/SV_eWY4YOSQN3iwdFQ? <code>
+</code></pre>
+<p>Avatar Section</p>
+<p>This is where you select the number of avatars to appear on the selection screen</p>
+<pre lang="markdown">EX:57 Avatars <code>
+</code></pre>
+<p>Time Section</p>
+<p>This is where you select how long (Mins) the user has to intereact with the simulated accounts</p>
+<pre lang="markdown">EX:3 Minutes<code>
+</code></pre>
+<p>Add a Condition Section</p>
+<p>If you want to add a condition, enter the number of Likes then Dislikes and press the button</p>
+<pre lang="markdown">EX: 5 likes 6 dislikes<code>
+</code></pre>
+<p>View Conditions Section</p>
+<p>This is where you select the conditions that you want in your version</p>
+<pre lang="markdown">
+  EX:
+  [9 Likes-0 Dislikes]
+  [6 Likes-0 Dislikes]
+  [3 Likes-3 Dislikes]
+  [0 Likes-6 Dislikes]<code>
+</code></pre>
+<p>Create Button</p>
+<p>This is where you get your code based on the previous selections you gave. Copy and paste this code in the Main.js at the specified lines</p>
+<pre lang="markdown">
+  EX:
+  ....
+  window.settings = [];
+  settings.numberofavatars = 82; 
+  settings.tasklength = 180000;
+  ...<code>
+</code></pre>
+
+
+
+
+<p><a href="OstracismSelection_-_Cloud_Moodonly_-_TESTING.qsf" style="color:rgb(8, 111, 229); font-weight:bold; font-size:18px;">Here you can download a sample Qualtrics questionaire</a>, that reads out the transmitted variables, and provides a number of follow-up questions as manipulation check. <a style="color:rgb(8, 111, 229); font-weight:bold; font-size:18px;" href="https://www.qualtrics.com/support/survey-platform/survey-module/survey-tools/import-and-export-surveys/">More information about how to import a questionaire into Qualtrics</a>.</p>
+
+<h2>
+<a name="set-it-up-on-your-own-computer-or-server" class="anchor" href="#set-it-up-on-your-own-computer-or-server"><span class="octicon octicon-link"></span></a>Set it up on your own computer or server</h2>
+
+<p>For more customization, such as modified task instructions, or different timing of the paradigm, you can download the source code of the paradigm.
+<p>By customizing the code, you can easily make changes to the following parameters: </p>
+
+<ul>
+<li>The task instructions</li>
+<li>Avatar pool from which the participant can choose their own avatar</li>
+<li>Number of people the participant "interacts" with</li>
+<li>Profiles (avatars + descriptions) of other group members</li>
+<li>Number of "likes" received by the participant and other group members</li>
+<li>Change the word "like" to another word or symbol</li>
+</ul><h2>
+<a name="to-adjust-various-settings" class="anchor" href="#to-adjust-various-settings"><span class="octicon octicon-link"></span></a>To adjust various settings:</h2>
+
+<ol>
+<li>Open the file <code>main.js</code> (from the folder on your computer) in a source code editor (e.g. Notepad) </li>
+<li>In the beginning of the code, variables for settings are defined, including the length of the task, and the number of likes participants reveice in each condition. Comments explaining the variables are provided in the code.
+4 Change variables in the <code>main.js</code> file on your computer (using the editor), according to the instructions document</li>
+<li>Save the changes made to the <code>main.js</code> document</li>
+</ol>
+
+<h2>
+<a name="to-change-the-study-instructions" class="anchor" href="#to-change-the-study-instructions"><span class="octicon octicon-link"></span></a>To change the study instructions:</h2>
+
+<p>Similarly, to edit task instructions, open the file <code>index.html</code> on your computer with an edtitor. Edit the task instructions according to the instructions provided within the document, and save your changes.</p>
+
+
+
+<h2>
+<a name="to-change-the-group-member-profiles-descriptions-and-avatars" class="anchor" href="#to-change-the-group-member-profiles-descriptions-and-avatars"><span class="octicon octicon-link"></span></a>To change the group member profiles (descriptions and avatars):</h2>
+
+<p>To change the group member profiles (descriptions and avatars) open the file <code>profiles.json</code> in an editor, and adjust the contents to your needs. </p>
+
+<p>The following scheme describes a group member, his avatar, description and the likes he receives.</p>
+
+<div class="highlight"><pre><span class="p">{</span>
+        <span class="nt">"username"</span><span class="p">:</span> <span class="s2">"Georgeee"</span><span class="p">,</span>
+        <span class="nt">"avatar"</span><span class="p">:</span> <span class="s2">"avatars/others/george.png"</span><span class="p">,</span>
+        <span class="nt">"text"</span><span class="p">:</span> <span class="s2">"I'm a 19 year old dude from Wisconsin (commence making fun of my accent). I love music and lately you can catch me listening to nothing but Joy Division, Echo &amp; the bunnymen, and the smiths. Besides music I like learning languages, psychology, drawing, and writing."</span><span class="p">,</span>
+        <span class="nt">"likes"</span><span class="p">:</span> <span class="p">[</span><span class="mi">45000</span><span class="p">,</span> <span class="mi">50000</span><span class="p">,</span> <span class="mi">110000</span><span class="p">,</span> <span class="mi">150000</span><span class="p">]</span>
+<span class="p">}</span>
+</pre></div>
+
+<p>According to this code, the group member will be called Georgeee, and he will have an avatar image with the filename george.png placed in the folder avatars, subfolder others. Georgeee will reveive 4 likes overall for his description, at 45s (45000ms), 50s, 110s and 150s.</p>
+
+<p>Note that the personal description needs to be entered without line breaks, as it appears in the default descriptions. To change the number of "likes" in each condition, add or remove timepoints. Make sure that every timepoint is preceded by a single comma. The likes entry should not be empty or left out. If you want to create a member that does not receive any likes, simply change the timepoints to high values (longer than the time of the task).</p>
+
+<p>The avatars used in the previews are not meant for redistribution and thus not included in the version for download. You will thus need to create your own avatars.All avatars have to be 250x250px, placed in the subfolder "others" (located inside the folder "avatars" in the main study folder you extracted on your computer or server). Note that the names of the image files must exactly match the names in the source code (including whether the file extension is upper or lower case). </p>
+
+<h2>
+<a name="running-the-study-from-your-own-server" class="anchor" href="#running-the-study-from-your-own-server"><span class="octicon octicon-link"></span></a>Running the study from your own server:</h2>
+
+<p>The task can be easily made available online, as it runs in a browser and has minimal server requirements. Any server that allows hosting of static webpages should work, and offers at least 5 MB of disk space should do, meaning that it can potentially be hosted for free. The files from the computer are transferred to the remote server for example by means of a FTP program. </p>
+
+<h2>
+<a name="question-and-issues" class="anchor" href="#question-and-issues"><span class="octicon octicon-link"></span></a>Question and Issues</h2>
+
+<p>You can <a style="color:rgb(8, 111, 229); font-weight:bold; font-size:18px;" href="https://github.com/smgrady-git/socialmedia/issues">submit a new question question or issue</a> using GitHub.</p>
+
+<h2>
+<a name="citation" class="anchor" href="#citation"><span class="octicon octicon-link"></span></a>Citation</h2>
+<p>Wolf, W., Levordashka, A., Ruff, J. R., Kraaijeveld, S., Lueckmann, J.-M., &amp; Williams, K. D. (2014). Ostracism Online: A social media ostracism paradigm. <em>Behavior Research Methods.</em> Advance online publication. <a href="http://dx.doi.org/10.3758/s13428-014-0475-x">doi:10.3758/s13428-014-0475-x</a></p>
+
+      </section>
+    </div>
+    <script src="scale.fix.js"></script>
+    
+  </body>
+</html>
